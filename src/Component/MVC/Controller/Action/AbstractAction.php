@@ -1,7 +1,7 @@
 <?php
 namespace PHPCrystal\RESTful\Component\MVC\Controller\Action;
 
-use PHPCrystal\Core\Component\MVC\Controller\Action as Action;
+use PHPCrystal\PHPCrystal\Component\MVC\Controller\Action as Action;
 
 abstract class AbstractAction extends Action\AbstractAction
 {

@@ -1,8 +1,8 @@
 <?php
 namespace PHPCrystal\RESTful\Service\Router;
 
-use PHPCrystal\Core\Service\Event as Event;
-use PHPCrystal\Core\Service\Router\AbstractRouter;
+use PHPCrystal\PHPCrystal\Service\Event as Event;
+use PHPCrystal\PHPCrystal\Service\Router\AbstractRouter;
 use PHPCrystal\RESTful\Component\MVC\Controller\Action\AbstractAction;
 
 class Restful extends AbstractRouter
@@ -12,13 +12,13 @@ class Restful extends AbstractRouter
 	 */
 	public function init()
 	{
+		parent::init();
+		
 		$context = $this->getApplication()
 			->getContext();
 		
 		$this->hostname = $context->get('phpcrystal.RESTful.router.hostname');
-		$this->uriPathPrefix = $context->get('phpcrystal.RESTful.router.uriPath');
-		
-		parent::init();
+		$this->uriPathPrefix = $context->get('phpcrystal.RESTful.router.uriPath');		
 	}
 	
 	/**

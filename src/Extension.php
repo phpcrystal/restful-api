@@ -1,7 +1,7 @@
 <?php
 namespace PHPCrystal\RESTful;
 
-use PHPCrystal\Core\Component\Package\AbstractExtension;
+use PHPCrystal\PHPCrystal\Component\Package\AbstractExtension;
 
 class Extension extends AbstractExtension
 {

@@ -1,7 +1,7 @@
 <?php
 namespace PHPCrystal\RESTful\Component\MVC\Controller;
 
-use PHPCrystal\Core\Component\MVC\Controller as Controller;
+use PHPCrystal\PHPCrystal\Component\MVC\Controller as Controller;
 
 abstract class AbstractFrontController extends Controller\AbstractFrontController
 {
@@ -24,7 +24,7 @@ abstract class AbstractFrontController extends Controller\AbstractFrontControlle
 	}
 	
 	/**
-	 * @return \PHPCrystal\Core\Component\MVC\Controller\Input\Input
+	 * @return \PHPCrystal\PHPCrystal\Component\MVC\Controller\Input\Input
 	 */
 	protected function onBeforeExecution($event)
 	{

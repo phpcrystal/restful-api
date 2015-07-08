@@ -1,7 +1,7 @@
 <?php
 namespace PHPCrystal\RESTful\Facade;
 
-use PHPCrystal\Core\Component\Facade\AbstractClassFacade;
+use PHPCrystal\PHPCrystal\Component\Facade\AbstractClassFacade;
 
 class Extension extends AbstractClassFacade
 {

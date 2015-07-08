@@ -1,5 +1,5 @@
 {
-    "name": "phpcrystal/restful",
+    "name": "phpcrystal/restful-api",
     "description": "A RESTful API package for the PHPCrystal framework",
     "license": "MIT",
     "authors": [

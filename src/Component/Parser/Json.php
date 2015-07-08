@@ -1,8 +1,8 @@
 <?php
 namespace PHPCrystal\RESTful\Component\Parser;
 
-use PHPCrystal\Core\Component\MVC\Controller\Input\Input;
-use PHPCrystal\Core\Component\Exception as Exception;
+use PHPCrystal\PHPCrystal\Component\MVC\Controller\Input\Input;
+use PHPCrystal\PHPCrystal\Component\Exception as Exception;
 
 class Json extends AbstractParser
 {
