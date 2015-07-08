@@ -1,0 +1,14 @@
+{
+    "name": "phpcrystal/restful",
+    "description": "A RESTful API package for the PHPCrystal framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrei Samuilik",
+            "email": "a.samuylik@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 5.6.9"
+    }
+}
