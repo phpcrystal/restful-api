@@ -1,7 +1,6 @@
 <?php
 namespace PHPCrystal\RESTful;
 
-
 $this->openSection('phpcrystal.RESTful');
 	
 $this->set('router.hostname', null);
